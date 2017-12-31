@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: arial;
+    font-size: 14px;
+    line-height: 18px;
+    color: royalblue;
+}
+
+.templete {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.logo {
+    height: 50px;
+    width: 75px;
+    padding: 10px;
+}
+
+.logo img {
+    height: 50px;
+    width: 75px;
+    border-radius: 50%;
+}
+
+.headersection h2 {
+    position: absolute;
+    top: 10px;
+    left: 450px;
+    font-size: 48px;
+    font-family: sans-serif;
+    padding: 18px;
+}
+
+.headersection {
+    background: rebeccapurple;
+    color: springgreen;
+}
+
+.nevisection {
+    background: blue;
+}
+
+.nevisection ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nevisection ul li {
+    display: block;
+    float: left;
+}
+
+.nevisection ul li a {
+    background: none;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 30px;
+    color: aqua;
+    /*border-right:1px solid black;*/
+}
+
+.nevisection ul li a:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.nevisection p {
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.contentsection {
+    background: white;
+}
+
+.leftsidebar {
+    width: 250px;
+    background-color: coral;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+    color: black;
+}
+
+.leftsidebar h2 {
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+.maincontent {
+    width: 650px;
+    background: white;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 0px;
+    height: 400px;
+}
+
+.post-images {
+    width: 200px;
+    margin-top: 10px;
+    border: 1px solid red;
+    padding: 3px;
+    float: left;
+    margin-right: 15px;
+}
+
+.Samepost p {
+    text-align: justify;
+    color: black;
+}
+
+.rightsideber {
+    width: 335px;
+    background: pink;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    height: 400px;
+}
+
+.samesideber {
+    margin-bottom: 30px;
+}
+
+.samesideber p {}
+
+.samesideber h2 {
+    border-bottom: 2px solid #555555;
+    background: white;
+    margin-bottom: 8px;
+    padding: 5px;
+    color: orangered;
+}
+
+.footersection {
+    height: 90px;
+    background-color: darkgray;
+    position: absolute;
+    bottom: 0px;
+}
+
+.readmore {
+    float: right;
+}
+
+.readmore a {
+    text-decoration: none;
+    background: aqua;
+    padding: 15px;
+}
+
+.readmore a:hover {
+    color: crimson;
+}
+.social{ 
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 220px;
+    padding-left: 20px;
+    
+    
+}
+
+.social img{
+
+      height:60px;
+    width: 60px;
+    border-radius: 50%; 
+    
+    padding: 10 px;
+    
+}
+.footersection p {
+    color: red;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 25px;
+    font-weight: bold;
+}
+.footermenu p{
+    color: currentColor;
+
+    
+}
